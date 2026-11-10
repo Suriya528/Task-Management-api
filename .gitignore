@@ -1,0 +1,52 @@
+# Target build directories & artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+logs/
+
+# Secrets, Keys & Environment Variables (NEVER COMMIT)
+.env
+.env.*
+*.pem
+*.key
+*.cer
+*.crt
+*.pfx
+*.p12
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
