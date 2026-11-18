@@ -35,7 +35,7 @@ logs/
 *.ipr
 out/
 
-# Eclipse
+# Eclipse / STS
 .apt_generated
 .classpath
 .factorypath
